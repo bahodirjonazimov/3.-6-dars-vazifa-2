@@ -1,0 +1,45 @@
+.footer {}
+
+.container {}
+
+.footer__icon {
+    display: flex;
+    padding-left: 459px;
+}
+
+.footer__icon-1 {
+    padding-right: 35px;
+    &:active {
+        color: blue;
+    }
+}
+
+.footer__icon-2 {
+    padding-right: 35px;
+    &:active {
+        color: blue;
+    }
+}
+
+.footer__icon-3 {
+    padding-right: 35px;
+    &:active {
+        color: blue;
+    }
+}
+
+.footer__icon-4 {
+    padding-right: 35px;
+    &:active {
+        color: blue;
+    }
+}
+
+.footer__text {
+    padding-left: 464px;
+    padding-top: 26px;
+}
+
+#active {
+    color: darkorange;
+}

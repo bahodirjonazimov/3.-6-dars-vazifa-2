@@ -1,0 +1,44 @@
+.header {
+    background-color: #ffffff;
+}
+
+.header container {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header__ul {
+    display: flex;
+    gap: 33px;
+    padding-left: 856px;
+}
+
+.header__ul {
+    color: #000000;
+    opacity: 60%;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header__a {
+    color: black;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.header__a:active {
+    border-top: 3px solid #ffa155;
+}
